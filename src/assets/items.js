@@ -1,11 +1,4 @@
-import website from '../assets/website.png'
-import instagram from '../assets/instagram.png'
-import appstore from '../assets/playstore.png'
-import youtube from '../assets/youtube.jpeg'
-import dribbble from '../assets/dribbble.png'
-import github from '../assets/github.png'
-import telegram from '../assets/telegram.png'
-import twitter from '../assets/twitter.png'
+import  { website, instagram, appstore, youtube, dribbble, github, telegram, twitter } from "./images/index.js";
 
 const items = [{
     "title": "Website",
