@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import items from './assets/items'
-import { Bandcamp } from './components/Iframes/index.js';
+import { Bandcamp, ShaderToy } from './components/Iframes/index.js';
 
 
 import './css/skeleton.css'
@@ -14,7 +14,7 @@ function App() {
         <div className = "App" >
             <Header></Header>
             <div className = "container row">
-                <Bandcamp />
+                <ShaderToy />
                 {
                     items.map((item, i) => {
                         return(
